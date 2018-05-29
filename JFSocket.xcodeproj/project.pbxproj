@@ -15,6 +15,14 @@
 		A69A251A20B82C8200714B28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A251920B82C8200714B28 /* main.m */; };
 		A69A252420B82C8200714B28 /* JFSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A252320B82C8200714B28 /* JFSocketTests.m */; };
 		A69A252F20B82C8200714B28 /* JFSocketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A252E20B82C8200714B28 /* JFSocketUITests.m */; };
+		A69A254420BBA20500714B28 /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A254220BBA20500714B28 /* CFViewController.m */; };
+		A69A255320BBA22800714B28 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A254820BBA22800714B28 /* AsyncUdpSocket.m */; };
+		A69A255420BBA22800714B28 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A254A20BBA22800714B28 /* AsyncSocket.m */; };
+		A69A255520BBA22900714B28 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A254D20BBA22800714B28 /* GCDAsyncUdpSocket.m */; };
+		A69A255620BBA22900714B28 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A254E20BBA22800714B28 /* GCDAsyncSocket.m */; };
+		A69A255720BBA22900714B28 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = A69A255220BBA22800714B28 /* README.markdown */; };
+		A69A255A20BBA6B900714B28 /* JFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A255920BBA6B900714B28 /* JFPerson.m */; };
+		A69A255D20BD1C6300714B28 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A255C20BD1C6300714B28 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,21 @@
 		A69A252A20B82C8200714B28 /* JFSocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFSocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69A252E20B82C8200714B28 /* JFSocketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFSocketUITests.m; sourceTree = "<group>"; };
 		A69A253020B82C8200714B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69A254220BBA20500714B28 /* CFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		A69A254320BBA20500714B28 /* CFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
+		A69A254820BBA22800714B28 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		A69A254920BBA22800714B28 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		A69A254A20BBA22800714B28 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		A69A254B20BBA22800714B28 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		A69A254D20BBA22800714B28 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		A69A254E20BBA22800714B28 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		A69A254F20BBA22800714B28 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		A69A255020BBA22800714B28 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A69A255120BBA22800714B28 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
+		A69A255220BBA22800714B28 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		A69A255820BBA6B900714B28 /* JFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFPerson.h; sourceTree = "<group>"; };
+		A69A255920BBA6B900714B28 /* JFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFPerson.m; sourceTree = "<group>"; };
+		A69A255C20BD1C6300714B28 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69A255D20BD1C6300714B28 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,7 @@
 				A69A252220B82C8200714B28 /* JFSocketTests */,
 				A69A252D20B82C8200714B28 /* JFSocketUITests */,
 				A69A250820B82C8000714B28 /* Products */,
+				A69A255B20BD1C6200714B28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,9 @@
 		A69A250920B82C8000714B28 /* JFSocket */ = {
 			isa = PBXGroup;
 			children = (
+				A69A254520BBA22800714B28 /* CocoaAsyncSocket */,
+				A69A254320BBA20500714B28 /* CFViewController.h */,
+				A69A254220BBA20500714B28 /* CFViewController.m */,
 				A69A250A20B82C8000714B28 /* AppDelegate.h */,
 				A69A250B20B82C8000714B28 /* AppDelegate.m */,
 				A69A250D20B82C8100714B28 /* ViewController.h */,
@@ -110,6 +138,8 @@
 				A69A251520B82C8200714B28 /* LaunchScreen.storyboard */,
 				A69A251820B82C8200714B28 /* Info.plist */,
 				A69A251920B82C8200714B28 /* main.m */,
+				A69A255820BBA6B900714B28 /* JFPerson.h */,
+				A69A255920BBA6B900714B28 /* JFPerson.m */,
 			);
 			path = JFSocket;
 			sourceTree = "<group>";
@@ -130,6 +160,55 @@
 				A69A253020B82C8200714B28 /* Info.plist */,
 			);
 			path = JFSocketUITests;
+			sourceTree = "<group>";
+		};
+		A69A254520BBA22800714B28 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A69A254620BBA22800714B28 /* Source */,
+				A69A255220BBA22800714B28 /* README.markdown */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		A69A254620BBA22800714B28 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A69A254720BBA22800714B28 /* RunLoop */,
+				A69A254C20BBA22800714B28 /* GCD */,
+				A69A255120BBA22800714B28 /* CocoaAsyncSocket.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A69A254720BBA22800714B28 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				A69A254820BBA22800714B28 /* AsyncUdpSocket.m */,
+				A69A254920BBA22800714B28 /* AsyncSocket.h */,
+				A69A254A20BBA22800714B28 /* AsyncSocket.m */,
+				A69A254B20BBA22800714B28 /* AsyncUdpSocket.h */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		A69A254C20BBA22800714B28 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A69A254D20BBA22800714B28 /* GCDAsyncUdpSocket.m */,
+				A69A254E20BBA22800714B28 /* GCDAsyncSocket.m */,
+				A69A254F20BBA22800714B28 /* GCDAsyncUdpSocket.h */,
+				A69A255020BBA22800714B28 /* GCDAsyncSocket.h */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		A69A255B20BD1C6200714B28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A69A255C20BD1C6300714B28 /* Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +316,7 @@
 			files = (
 				A69A251720B82C8200714B28 /* LaunchScreen.storyboard in Resources */,
 				A69A251420B82C8200714B28 /* Assets.xcassets in Resources */,
+				A69A255720BBA22900714B28 /* README.markdown in Resources */,
 				A69A251220B82C8100714B28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +342,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69A255A20BBA6B900714B28 /* JFPerson.m in Sources */,
+				A69A255620BBA22900714B28 /* GCDAsyncSocket.m in Sources */,
 				A69A250F20B82C8100714B28 /* ViewController.m in Sources */,
+				A69A255320BBA22800714B28 /* AsyncUdpSocket.m in Sources */,
+				A69A254420BBA20500714B28 /* CFViewController.m in Sources */,
+				A69A255420BBA22800714B28 /* AsyncSocket.m in Sources */,
+				A69A255520BBA22900714B28 /* GCDAsyncUdpSocket.m in Sources */,
 				A69A251A20B82C8200714B28 /* main.m in Sources */,
 				A69A250C20B82C8000714B28 /* AppDelegate.m in Sources */,
 			);
@@ -434,8 +520,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X9759ML657;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
 				INFOPLIST_FILE = JFSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,8 +538,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X9759ML657;
+				DEVELOPMENT_TEAM = C9GN7A92DK;
 				INFOPLIST_FILE = JFSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
